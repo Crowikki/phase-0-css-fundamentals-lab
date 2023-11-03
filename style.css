@@ -3,3 +3,52 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+/* this made the h1 exceptional realy group centered  */
+
+figure{
+  text-align: center;
+}
+/*this made the img centered by doing figure instead of img couldnt get img to work*/
+nav {
+ text-align: center;
+}
+/* used to center all the navigation text*/
+ 
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: red;
+}
+/*used to put padding around nav text and change only nav text background red*/
+ 
+figcaption {
+  font-size: 80%;
+  text-align: center;
+}
+/* used to make the 345 carl street smaller  the image caption*/
+
+#featured-property p {
+width: 800px;
+margin: 20px auto;
+/*margin 20px adds a margin to top and bottom and auto centers it horizontally*/
+text-align: center;
+}
+/*the p is after featured property because its whats inside that you want to change  its nested*/
+/*section is the main tag featured and p are inside of that tag*/
+
+#details div {
+  float: left;
+}
+/*made the text horizontal instead of vertical*/
+
+div {
+text-align: center;
+background-color: red;
+width: 25%;
+}
+
+/* centers text changes  background color and occupy 25 percent of the width*/
